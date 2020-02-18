@@ -1,9 +1,9 @@
 // Write your solution in this file!
 
 function updateDriverWithKeyAndValue() {
-  const newDriver = {...obj};
+  const newDriver = { ...obj };
  
   newDriver[key] = value;
  
-  return newObj;
+  return newDriver;
 }
